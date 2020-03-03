@@ -1,0 +1,120 @@
+body{
+    padding:0;
+     margin:0;
+     font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
+}
+
+.memory{
+position: absolute;
+margin-top: 25px;
+margin-left: 1150px;
+float: left;
+}
+#coins{
+    margin-top: 25.5px;
+    margin-right: 170px; 
+    float: right;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.instelling{
+    display: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 350px;
+    text-align: center;
+    border-radius: 6px;
+    right: 60%;
+}
+
+select{
+    height: 35px;
+    font-size: 15px;
+    font-family: 'FontAwesome', 'Second Font name';
+    border: none;
+    background-color:#F5F5F5;
+}
+
+.dropdown{
+    position: absolute;
+    top: 15px;
+    left: 90%;
+    display: inline-block;
+}
+
+.dropdown:hover .instelling{
+    display: block;
+}
+
+
+.navigator{
+    background-color: #F5F5F5;
+}
+.title{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 64px;
+    float: right;
+    background-color: #1c96a3;
+    width: 1455px;
+    height: 160px;
+}
+#naam{
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: white;
+}
+.sideBar{
+    background-color: #132732;
+    width: 64px;
+    height: 2522px;
+}
+.sideBar div{
+padding: 14px;
+}
+
+.sideBar div img {
+    margin-bottom: 10px;
+}
+
+.sideBar div img:last-child {
+    margin-bottom: 0px;
+}
+.module{
+    margin-top: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .module p{
+    border-top: 1px gray solid;
+    color: gray;
+ }
+.info{  
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-bottom: black 1px;
+    position: absolute;
+    margin-left: 10%;
+
+}
+.naam{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-bottom: black 1px;
+    position: absolute;
+    margin-left: 35%;  
+}
+.status{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-bottom: black 1px;
+    position: absolute;
+    margin-left: 70%;  
+}
